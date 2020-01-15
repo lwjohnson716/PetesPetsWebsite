@@ -7,53 +7,74 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <a class="navbar-brand" href="index.html">Pete's Pets</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Homepage</a>
-                    <a class="nav-item nav-link" href="AdoptionformPage.html">Adoption Form</a>
-                    <a class="nav-item nav-link" href="petsforadop.html">Pets For Adoption</a>
-                  </div>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="AdoptionformPage.html">Adoption Form</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="petsforadop.html">Pets for Adoption</a>
+                    </li>
+                  </ul>
                 </div>
               </nav>
 
         <div class="container">
-                <div class="text-center"> 
+
     <h1 class="text-primary">Ready to Adopt?</h1>
 
+    <div class="row">
 
-<p class="font-italic" class="text-info">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Auctor augue mauris augue neque gravida. Vel elit,
-scelerisque mauris pellentesque pulvinar pellentesque. 
-Donec pretium vulputate sapien nec sagittis aliquam. 
-Rhoncus mattis rhoncus urna neque.
-</p>
+            <div class="col-8 text-left">
+                    <form>
+                            First name:<br>
+                            <input type="text" name="firstname"><br>
+                            Email Address:<br>
+                            <input type="text" name="emailaddress"><br>
+                    <h5>What do you want to Adopt?</h5>
+                            <input type="radio" name="whatdoyouadopt" value="dog"> Dog<br>
+                      <input type="radio" name="whatdoadopt" value="cat"> Cat<br>
+                      <h5>Why do you want to Adopt?</h5>
+                      <textarea rows="4" cols="50">
+                            </textarea>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <input type="submit" value="Submit">
+                          </form>
+            </div>
 
-<form>
-        First name:<br>
-        <input type="text" name="firstname"><br>
-        Email Address:<br>
-        <input type="text" name="emailaddress"><br>
-<h5>What do you want to Adopt?</h5>
-        <input type="radio" name="whatdoyouadopt" value="dog"> Dog<br>
-  <input type="radio" name="whatdoadopt" value="cat"> Cat<br>
-  <h5>Why do you want to Adopt?</h5>
-  <textarea rows="4" cols="50">
-        </textarea>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <input type="submit" value="Submit">
-      </form>
-      </div>
-        </div>
+            <div class="col-4">
+                
+                    <p class="text-right">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Auctor augue mauris augue neque gravida. Vel elit,
+                    scelerisque mauris pellentesque pulvinar pellentesque. 
+                    Donec pretium vulputate sapien nec sagittis aliquam. 
+                    Rhoncus mattis rhoncus urna neque.
+                    </p>
+                </div>
+
+
+
+                        </div>    
+                    </div>
+
+</div>
+
+
+
+
 </body>
 </html>
